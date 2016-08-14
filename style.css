@@ -1,0 +1,205 @@
+
+.body {
+  position: relative;
+  display: inline;
+  }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  
+.canvasStyle {
+  width:912px;
+  height:600px;
+  position: relative;
+  margin: auto;
+  /*background-color:#000000;*/
+  }
+
+.gifStyle {
+  border-style: dotted;
+  padding: 6px;
+  border-width: 2px;    
+  position: relative;
+  z-index:100;
+  }  
+  
+.headLine {
+  width: 900px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  /*display:inline;*/
+  position: fixed;
+  top: 6%;
+  z-index:500;
+  font-family: 'Petit Formal Script', cursive;
+  font-weight:400;
+  font-size: 90px;
+  color: #FFFFFF;
+  }
+
+.attribution {
+  width: 900px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  position: fixed;
+  top: 38%;
+  z-index:600;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: #FFFFFF;
+  }
+
+.instructions {
+  width: 900px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  position: fixed;
+  top: 60%;
+  z-index:600;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  }
+
+.herStoryHed {
+  width: auto;
+  height: auto;
+  margin-top: 45%;
+  margin-left: 3%;
+  /*margin-right: auto;*/
+  text-align:left;
+  /*float: left;*/
+  position: absolute;
+  visibility: hidden;
+  display: inline-block;
+  z-index:1200;
+  font-family: 'Petit Formal Script', cursive;
+  font-weight:400;
+  font-size: 35px;
+  line-height: 95%;
+  color: #000000;
+  }
+
+.toDellas {
+  width: auto;
+  height: auto;
+  margin-top: 45%;
+  margin-left: 3%;
+  /*margin-right: auto;*/
+  text-align:left;
+  /*float: left;*/
+  position: absolute;
+  visibility: hidden;
+  display: inline-block;
+  z-index:1200;
+  font-family: 'Petit Formal Script', cursive;
+  font-weight:400;
+  font-size: 35px;
+  line-height: 95%;
+  color: #FFFFFF;
+  }
+
+.hisStoryHed {
+  width: 900px;
+  height: auto;
+  margin-right: 2%;
+  margin-top: 45%;
+  float: right;
+  text-align:right;
+  visibility: hidden;
+  position: absolute;
+  right:0;
+  z-index:1000;
+  font-family: 'Petit Formal Script', cursive;
+  font-weight:400;
+  font-size: 35px;
+  line-height: 95%;
+  color: #000000;
+  }
+
+
+.toJims {
+  width: auto;
+  height: auto;
+  margin-top: 45%;
+  margin-left: 3%;
+  /*margin-right: auto;*/
+  text-align:left;
+  /*float: left;*/
+  position: absolute;
+  visibility: hidden;
+  display: inline-block;
+  z-index:1200;
+  font-family: 'Petit Formal Script', cursive;
+  font-weight:400;
+  font-size: 35px;
+  line-height: 95%;
+  color: #FFFFFF;
+  }
+
+.toConclusion {
+  width: 900px;
+  height: auto;
+  margin-right: 2%;
+  margin-top: 45%;
+  float: right;
+  text-align:right;
+  visibility: hidden;
+  position: absolute;
+  right:0;
+  z-index:1000;
+  font-family: 'Petit Formal Script', cursive;
+  font-weight:400;
+  font-size: 35px;
+  line-height: 95%;
+  color: #FFFFFF;
+  }
+
+
+.creditToggle {
+  width: 886px;
+  height: auto;
+  margin-left: 8px;
+  margin-right: auto;
+  padding: 6px;
+  text-align:center;
+  position: relative;
+  background-color: #000000;
+  top: 101.3%;
+  z-index:600;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-size: 10px;
+  color: #FFFFFF;
+  }
+
+.credits {
+  width: 886px;
+  height: auto;
+  margin-left: 8px;
+  margin-right: auto;
+  padding:6px;
+  text-align:center;
+  position: relative;
+  background-color: #000000;
+  top: 101.3%;
+  z-index:600;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  color: #FFFFFF;
+  display: none;
+  }
