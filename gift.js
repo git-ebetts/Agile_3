@@ -1,4 +1,8 @@
 
+
+function start() {
+console.log("STARTING!");
+
 var open1 = ('assets/NewOpenerBlink.gif');
 var open2 = ('assets/theCouple.jpg');
 var open3 = ('assets/theStreets.gif');
@@ -21,8 +25,7 @@ function addElement() {
   document.getElementById('container').appendChild(gifDiv);
 }
 
-function start() {
-  console.log("STARTING!)");
+
 addElement();
   readPointer.style.visibility="hidden";
   headBox.style.visibility="visible";
