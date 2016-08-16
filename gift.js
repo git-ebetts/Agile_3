@@ -1,15 +1,21 @@
 
 
-function start() {
-console.log("STARTING!");
+var gifArray = [
+'assets/NewOpenerBlink.gif',
+'assets/theCouple.jpg',
+'assets/theStreets.gif',
+'assets/newWoman.gif',
+'assets/end.gif'
+];
 
-var open1 = ('assets/NewOpenerBlink.gif');
-var open2 = ('assets/theCouple.jpg');
-var open3 = ('assets/theStreets.gif');
-var open4 = ('assets/newWoman.gif');
-var open5 = ('assets/end.gif');
+function loadGifs(){
+  for(i = 0; i < gifArray.length; i++){
+    var url = gifArray[i],
+    img = new Image();
+    img.src = url;
+  }
+}
 
-var gifArray = [open1, open2, open3, open4,open5];
 var gifDiv;
 var gifDiv1;
 
@@ -109,5 +115,5 @@ $('.creditToggle').click(function() {
   $('#creditText').toggle();
  // creditText.style.visibility="visible";
 });
-}
-window.onload = start;
+
+window.onload = loadGifs();
